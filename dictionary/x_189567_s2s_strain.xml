@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Strain" max_length="40" name="x_189567_s2s_strain" type="collection"/>
+</database>
