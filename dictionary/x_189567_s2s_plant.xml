@@ -6,7 +6,7 @@
         <element label="Location" max_length="32" name="location" reference="x_189567_s2s_location" type="reference"/>
         <element label="Mother" max_length="32" name="mother" reference="x_189567_s2s_plant" type="reference"/>
         <element label="Phase" max_length="32" name="phase" reference="x_189567_s2s_phase" type="reference"/>
-        <element label="Plant ID" max_length="40" name="plant_id" type="integer"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="a32225a00fb01300c6d285bce1050e8a" label="Plant ID" max_length="40" name="plant_id" type="integer" use_dynamic_default="true"/>
         <element label="Quantity" max_length="40" name="quantity" type="integer"/>
         <element label="Room ID" max_length="32" name="room_id" reference="x_189567_s2s_room" type="reference"/>
         <element label="Source ID" max_length="32" name="source_id" reference="x_189567_s2s_source" type="reference"/>
