@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Strain" max_length="40" name="x_189567_s2s_strain" type="collection"/>
+    <element label="Strain" max_length="40" name="x_189567_s2s_strain" type="collection">
+        <element label="Strain ID" max_length="40" name="strain_id" type="integer" use_dynamic_default="true"/>
+        <element label="Strain Light Requirements" max_length="40" name="strain_light_requirements" type="float"/>
+        <element label="Strain Name" max_length="40" name="strain_name" type="string"/>
+        <element label="Strain Nutrient Requirements" max_length="32" name="strain_nutrient_requirements" reference="x_189567_s2s_nutrient" type="reference"/>
+        <element label="Strain Type" max_length="40" name="strain_type" type="string"/>
+        <element label="Strain Water Requirements" max_length="40" name="strain_water_requirements" type="float"/>
+        <index name="index">
+            <element name="strain_nutrient_requirements"/>
+        </index>
+    </element>
 </database>

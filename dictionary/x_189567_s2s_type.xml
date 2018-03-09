@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Type" max_length="40" name="x_189567_s2s_type" type="collection">
+        <element label="Type Description" max_length="40" name="type_description" type="string"/>
+        <element label="Type ID" max_length="40" name="type_id" type="integer"/>
+        <element label="Type Name" max_length="40" name="type_name" type="string"/>
+    </element>
+</database>

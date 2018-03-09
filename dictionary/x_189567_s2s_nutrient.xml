@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Nutrient" max_length="40" name="x_189567_s2s_nutrient" type="collection">
+        <element label="Nutrient Description" max_length="40" name="nutrient_description" type="string"/>
+        <element label="Nutrient ID" max_length="40" name="nutrient_id" type="integer"/>
+        <element label="Nutrient Name" max_length="40" name="nutrient_name" type="string"/>
+    </element>
+</database>

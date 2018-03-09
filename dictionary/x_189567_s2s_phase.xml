@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Phase" max_length="40" name="x_189567_s2s_phase" type="collection">
+        <element label="Phase Description" max_length="40" name="phase_description" type="string"/>
+        <element label="Phase ID" max_length="40" name="phase_id" type="integer"/>
+        <element label="Phase Name" max_length="40" name="phase_name" type="string"/>
+    </element>
+</database>

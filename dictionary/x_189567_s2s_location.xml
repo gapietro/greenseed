@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Location" max_length="40" name="x_189567_s2s_location" type="collection"/>
+    <element label="Location" max_length="40" name="x_189567_s2s_location" type="collection">
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Contact" max_length="40" name="contact" type="string"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="Fax" max_length="40" name="fax" type="string"/>
+        <element label="Latitude" max_length="40" name="latitude" type="float"/>
+        <element label="Longitude" max_length="40" name="longitude" type="float"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Phone" max_length="40" name="phone" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="Street" max_length="40" name="street" type="string"/>
+        <element label="Zipcode" max_length="40" name="zipcode" type="string"/>
+    </element>
 </database>

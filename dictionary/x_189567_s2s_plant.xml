@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Plant" max_length="40" name="x_189567_s2s_plant" type="collection">
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element label="Strain" max_length="32" name="strain" reference="x_189567_s2s_strain" type="reference"/>
+        <element label="Supplier" max_length="32" name="supplier" reference="x_189567_s2s_supplier" type="reference"/>
+        <element label="Type" max_length="32" name="type" reference="x_189567_s2s_type" type="reference"/>
+        <index name="index">
+            <element name="strain"/>
+        </index>
+        <index name="index2">
+            <element name="supplier"/>
+        </index>
+        <index name="index3">
+            <element name="type"/>
+        </index>
+    </element>
+</database>

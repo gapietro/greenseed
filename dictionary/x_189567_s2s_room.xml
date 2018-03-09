@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Room" max_length="40" name="x_189567_s2s_room" type="collection">
+        <element label="Room Description" max_length="40" name="room_description" type="string"/>
+        <element label="Room ID" max_length="40" name="room_id" type="integer"/>
+        <element label="Room Name" max_length="40" name="room_name" type="string"/>
+    </element>
+</database>

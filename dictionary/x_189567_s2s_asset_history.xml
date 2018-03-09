@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element label="Asset History" max_length="40" name="x_189567_s2s_asset_history" type="collection"/>
-</database>

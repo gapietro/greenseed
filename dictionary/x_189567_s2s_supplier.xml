@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Supplier" max_length="40" name="x_189567_s2s_supplier" type="collection"/>
+    <element label="Supplier" max_length="40" name="x_189567_s2s_supplier" type="collection">
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Contact" max_length="40" name="contact" type="string"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="Fax" max_length="40" name="fax" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Phone" max_length="40" name="phone" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="Street" max_length="40" name="street" type="string"/>
+        <element label="Supplier ID" max_length="40" name="supplier_id" type="integer"/>
+        <element label="Zipcode" max_length="40" name="zipcode" type="string"/>
+    </element>
 </database>
