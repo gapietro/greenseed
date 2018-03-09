@@ -1,17 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Plant" max_length="40" name="x_189567_s2s_plant" type="collection">
+        <element label="Barcode" max_length="40" name="barcode" type="integer"/>
+        <element label="Born On" max_length="40" name="born_on" type="glide_date"/>
+        <element label="Location" max_length="32" name="location" reference="x_189567_s2s_location" type="reference"/>
+        <element label="Mother" max_length="32" name="mother" reference="x_189567_s2s_plant" type="reference"/>
+        <element label="Phase" max_length="32" name="phase" reference="x_189567_s2s_phase" type="reference"/>
+        <element label="Plant ID" max_length="40" name="plant_id" type="integer"/>
         <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element label="Room ID" max_length="32" name="room_id" reference="x_189567_s2s_room" type="reference"/>
+        <element label="Source ID" max_length="32" name="source_id" reference="x_189567_s2s_source" type="reference"/>
         <element label="Strain" max_length="32" name="strain" reference="x_189567_s2s_strain" type="reference"/>
         <element label="Supplier" max_length="32" name="supplier" reference="x_189567_s2s_supplier" type="reference"/>
         <element label="Type" max_length="32" name="type" reference="x_189567_s2s_type" type="reference"/>
+        <element label="Weight" max_length="40" name="weight" type="float"/>
         <index name="index">
-            <element name="strain"/>
+            <element name="phase"/>
         </index>
         <index name="index2">
-            <element name="supplier"/>
+            <element name="room_id"/>
         </index>
         <index name="index3">
+            <element name="strain"/>
+        </index>
+        <index name="index4">
+            <element name="mother"/>
+        </index>
+        <index name="index5">
+            <element name="supplier"/>
+        </index>
+        <index name="index6">
+            <element name="location"/>
+        </index>
+        <index name="index7">
+            <element name="source_id"/>
+        </index>
+        <index name="index8">
             <element name="type"/>
         </index>
     </element>
